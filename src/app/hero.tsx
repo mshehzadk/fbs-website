@@ -17,6 +17,7 @@ export default function Hero() {
       color="white"
       flexDirection={{ base: "column", md: "row" }}
       textColor={"black"}
+      bg="blue.300"
     >
       <Box
         flex="1"
