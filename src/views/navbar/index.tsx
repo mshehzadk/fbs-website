@@ -56,7 +56,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link as={NextLink} href="" px={7}>
-              Syllabus
+              Roadmap
             </Link>
 
             <Link as={NextLink} href="" px={7}>

@@ -1,5 +1,6 @@
 import ChakraWrapper from "@/components/ChakraWrapper";
-import Navbar from "@/navbar";
+import Footer from "@/views/footer/index";
+import Navbar from "@/views/navbar";
 export default function RootLayout({
   children,
 }: {
@@ -12,6 +13,7 @@ export default function RootLayout({
         <ChakraWrapper>
           <Navbar />
           {children}
+          <Footer />
         </ChakraWrapper>
       </body>
     </html>
