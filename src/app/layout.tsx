@@ -1,5 +1,5 @@
 import ChakraWrapper from "@/components/ChakraWrapper";
-import Footer from "@/views/footer/index";
+import Footer from "@/views/footer/Footer";
 import Navbar from "@/views/navbar";
 export default function RootLayout({
   children,
