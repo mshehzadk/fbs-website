@@ -1,6 +1,4 @@
 import TopContainer from "@/components/topcontainer/TopContainer";
-import Hero from "./hero";
-import Vision from "./visison";
 
 export default function Home() {
   return (
