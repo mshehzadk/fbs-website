@@ -8,12 +8,9 @@ import {
   HStack,
   Image,
   Link,
-  List,
-  ListItem,
   Show,
   useColorMode,
 } from "@chakra-ui/react";
-import { SearchIcon, MoonIcon } from "@chakra-ui/icons";
 import React from "react";
 import NavMenu from "./NavMenu";
 import Burger from "./Burger";
@@ -55,9 +52,6 @@ export default function Header() {
         </Box>
         {/* right area */}
         <HStack>
-          <Box pl="15">
-            <SearchIcon w="25" h="25" />
-          </Box>
           {/* <Box pl="15">
             <MoonIcon w="25" h="25" />
           </Box> */}
@@ -66,8 +60,8 @@ export default function Header() {
           <Show below="md">
             <Burger />
           </Show>
-          <Link href="http://piaic.org/" target={"_blank"}>
-            <Button variant={"outline"}>Go to Piaic</Button>
+          <Link href="" target={"_blank"}>
+            <Button variant={"outline"}>Join Us</Button>
           </Link>
         </HStack>
       </Flex>
