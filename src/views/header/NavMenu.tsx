@@ -1,4 +1,4 @@
-import { List, ListItem, Stack, useColorMode } from "@chakra-ui/react";
+import { List,Stack, useColorMode } from "@chakra-ui/react";
 import Link from "next/link";
 import React from "react";
 
@@ -13,12 +13,12 @@ export default function NavMenu({ horizontal = true }) {
         <Stack
           direction={{ base: "column", md: "row" }}
           align={{ base: "left", md: "center" }}
+          spacing={20}
         >
           <Link href="/">Home</Link>
-          <ListItem></ListItem>
           <Link href="/about">About</Link>
-
-          <ListItem>Contact</ListItem>
+          <Link href="/">Contact</Link>
+          <Link href="/">Blogs</Link>
         </Stack>
       </List>
     </>
