@@ -27,7 +27,7 @@ export default function Feature() {
         </Text>
       </Box>
       <Container maxW={1200} mt="10">
-        {/* 6 features  */}
+        {/* 4 features  */}
         <Box>
           <SimpleGrid columns={{ base: 1, md: 2, lg: 2 }} spacing={10}>
             {/* feature 1 */}
