@@ -1,3 +1,5 @@
+// This is Card component that displays the info of the team members.
+
 import React from 'react'
 import {
   Box,

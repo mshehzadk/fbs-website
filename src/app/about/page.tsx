@@ -1,3 +1,5 @@
+// This is about page which displays the info about FBS.
+
 "use client";
 import Faq from "@/components/faq/Faq";
 import {

@@ -1,3 +1,5 @@
+
+// A default head of html doc for meta data
 export default function Head() {
   return (
     <>

@@ -1,3 +1,5 @@
+// A starter layout file where whole project is contrlled globally.
+
 import ChakraWrapper from "@/components/ChakraWrapper";
 import Footer from "@/views/footer/Footer";
 import Header from "@/views/header/Header";

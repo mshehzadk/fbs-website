@@ -1,3 +1,5 @@
+
+// This is a Home page of website.
 import Faq from "@/components/faq/Faq";
 import Feature from "@/components/features/Feature";
 import TopContainer from "@/components/topcontainer/TopContainer";
